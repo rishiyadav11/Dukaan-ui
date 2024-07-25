@@ -14,7 +14,7 @@ const BtnCompo = ({
 }) => {
   return (
     <div
-      className={`w-[32%] h-52 rounded-md `}
+      className={` w-full xl:w-[32%] h-52 rounded-md `}
     >
       <div   className={`h-32 p-6  ${nextpay ? " rounded-t-md" :" rounded-md"} ${
         color ? "bg-[#1174C2] text-white" : " text-black bg-white shadow-lg"

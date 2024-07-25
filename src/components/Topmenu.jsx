@@ -2,7 +2,7 @@ import React from "react";
 import { CiSearch } from "react-icons/ci";
 const Topmenu = () => {
   return (
-    <div className={`grid grid-cols-3 w-full h-16  border-gray-300 border-b`}>
+    <div className={`grid sm:grid-cols-3 grid-cols-2 w-full h-16  border-gray-300 border-b`}>
       <div className=" flex  justify-start  items-center gap-4">
         <h1 className="text-xl font-semibold">Payouts</h1>
         <h3 className="flex gap-1 items-center text-sm tracking-tighter">
@@ -36,7 +36,7 @@ const Topmenu = () => {
           How it works
         </h3>
       </div>
-      <div className=" flex justify-center items-center">
+      <div className="  justify-center items-center hidden sm:flex">
         <form
           className="flex gap-2 items-center bg-[#F2F2F2] rounded-md px-2 py-2  w-full justify-center"
           onSubmit={(e) => e.preventDefault()}
@@ -52,7 +52,7 @@ const Topmenu = () => {
           />
         </form>
       </div>
-      <div className=" flex justify-end items-center  gap-4 ">
+      <div className=" flex justify-end   items-center  gap-4 ">
         <div className="bg-gray-200 rounded-full p-3">
           {" "}
           <svg

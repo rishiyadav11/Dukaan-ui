@@ -56,7 +56,7 @@ const Overview = () => {
     </div>
         </div>
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-5 w-full  flex-col xl:flex-row">
       <BtnCompo
         h1="Next payout  "
         price="₹ 2,312.23"
